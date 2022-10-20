@@ -273,7 +273,7 @@ function finity.new(isdark, gprojectName, thinProject)
 	if projectName then
 		self2.tip.Text = projectName
 	else
-		self2.tip.Text = "Press '".. string.sub(tostring(self.ToggleKey), 14) .."' to hide this menu (W41K3R HUB)"
+		self2.tip.Text = "Press '".. string.sub(tostring(self.ToggleKey), 14) .."' to hide this menu (Project WD)"
 	end
     
     function finity.settitle(text)
