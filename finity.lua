@@ -149,7 +149,7 @@ function finity.new(isdark, gprojectName, thinProject)
 		finityData.ToggleKey = NewKey
 		
 		if not projectName then
-			self2.tip.Text = "Press '".. string.sub(tostring(NewKey), 14) .."' to hide this menu (W41K3R HUB)"
+			self2.tip.Text = "Press '".. string.sub(tostring(NewKey), 14) .."' to hide this menu (Project WG)"
 		end
 		
 		if finityData.UpConnection then
