@@ -849,11 +849,7 @@ function finity.new(isdark, gprojectName, thinProject)
 						uipadding.Parent = cheat.list
 						uipadding = nil
 						
-						local function refreshOptions()
-							if cheat.dropped then
-								cheat.fadelist()
-							end	
-							
+						local function refreshOptions()	
 							for _, child in next, cheat.list:GetChildren() do
 								if child:IsA("TextButton") then
 									child:Destroy()
