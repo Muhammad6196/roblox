@@ -902,7 +902,7 @@ function finity.new(isdark, gprojectName, thinProject)
 						function cheat.fadelist()
 							cheat.dropped = not cheat.dropped
 
-							if cheat.dropped then
+							if not cheat.dropped then
 								for _, button in next, cheat.list:GetChildren() do
 									if button:IsA("TextButton") then
 										finity.gs["TweenService"]:Create(button, TweenInfo.new(0.2), {TextTransparency = 0}):Play()
