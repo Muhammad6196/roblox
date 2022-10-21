@@ -880,8 +880,6 @@ function finity.new(isdark, gprojectName, thinProject)
 									if cheat.dropped then
 										cheat.value = value
 										cheat.selected.Text = value
-	
-										cheat.fadelist()
 										
 										if callback then
 											local s, e = pcall(function()
