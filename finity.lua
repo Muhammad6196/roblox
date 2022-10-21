@@ -850,11 +850,11 @@ function finity.new(isdark, gprojectName, thinProject)
 						uipadding = nil
 						
 						local function refreshOptions()	
-							for _, child in next, cheat.list:GetChildren() do
+							--[[for _, child in next, cheat.list:GetChildren() do
 								if child:IsA("TextButton") then
 									child:Destroy()
 								end
-							end
+							end]]
 							
 							for _, value in next, options do
 								local button = finity:Create("TextButton", {
