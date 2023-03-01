@@ -1,1 +1,2 @@
-lol
+local librar = {}
+return librar
