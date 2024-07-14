@@ -1,4 +1,4 @@
-if game.PlaceId == 15502339080 then
+if game.PlaceId == 15502339080 or game.PlaceId == 15588442388 then
     repeat wait() until game:IsLoaded()
     local booth_func
     for i, v in getgc() do
