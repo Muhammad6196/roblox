@@ -12,6 +12,7 @@ if game.PlaceId == 15502339080 or game.PlaceId == 15588442388 then
             end
         end
     end
+    local plr = game.Players.LocalPlayer
     local ListCounter = Instance.new("ScreenGui")
     local ItemCount = Instance.new("Frame")
     local UICorner = Instance.new("UICorner")
