@@ -25,7 +25,6 @@ getgenv().petData = {  --You can modify huge or titanic pet settings here
     priceLimit = 30000000
 }
 getgenv().webhook = {  --You can setup ur webhook here
-    url = "https://discord.com/api/webhooks/1349099821310541826/0oh6Lt0TOu5ztRNDqHgY2PNy-FMl_WRj0iLowEL5thaUJgBeH2sMFGrk_wT2B2N4C7Mv",
     discordtag = ""
 }
 getgenv().premiumKey =  "KEY_d674e4c5889242b4a48810b60549fb47" --
