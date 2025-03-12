@@ -27,5 +27,5 @@ getgenv().petData = {  --You can modify huge or titanic pet settings here
 getgenv().webhook = {  --You can setup ur webhook here
     discordtag = ""
 }
-getgenv().premiumKey =  "KEY_d674e4c5889242b4a48810b60549fb47" --
+getgenv().premiumKey =  "KEY_9b3a76a0d2124245a1d1d871390e037f" --
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Tests/refs/heads/main/wd_Arise/scripts/PetGOBooth.lua"))()
